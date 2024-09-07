@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         EditText editTextNote = view.findViewById(R.id.editNote);
 
         builder.setView(view)
-                .setTitle("Add Note")
+                .setTitle("Add Your Note")
                 .setPositiveButton("Add", (dialog, which) -> {
                     String note = editTextNote.getText().toString();
                     if (!note.isEmpty()){
